@@ -1,0 +1,485 @@
+/*https://www.figma.com/file/9ngSv2By69AW3Llm1aoww7/Dashly-X?node-id=1%3A779&t=9CmOY49iPR8irSDy-0*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0; }
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+:focus, :active {
+    outline: none; }
+  
+a:focus, a:active {
+    outline: none; }
+  
+nav, footer, header, aside {
+    display: block; }
+  
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; }
+  
+input, button, textarea {
+    font-family: inherit; }
+  
+input::-ms-clear {
+    display: none; }
+  
+button {
+    cursor: pointer; }
+  
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+  
+a, a:visited {
+    text-decoration: none; 
+    color: #222222;
+}
+  
+a:hover {
+    text-decoration: none; }
+  
+ul li {
+    list-style: none; }
+  
+img {
+    vertical-align: top; }
+  
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit; }
+
+body {
+    font-family: Inter;
+    color: #222222;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: right top 121px;
+    background-size: 860px ,674px;
+}
+
+p {
+    color: #6F7182;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.wrapper {
+    margin-left:110px;
+    margin-top: 33px;
+}
+
+.header {
+    display: inline-flex;
+}
+
+.header h3 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    margin-top: 12px;
+    
+}
+
+.header img {
+    margin-right: 638px;
+    height: 41px;
+    width: 153px;
+}
+
+.button1 {
+    background-color: white;
+    white-space: nowrap;
+    border: 1px 1px 1px solid black;
+    border-radius: 48px;
+    box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+    padding: 17px 24px 19px 26px;
+}
+
+.button1 h3 {
+    margin-top: -2%;
+}
+
+.header-h3 {
+    margin-right:65px ;
+}
+
+.button1:hover {
+    background-color: #999999;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.button2 {
+    white-space: nowrap;
+    background-color: #1476FF;
+    border: 1px 1px 1px solid #1476FF;
+    box-shadow: 0px 4px 10px rgba(2, 87, 251, 0.2);
+    border-radius: 44px;
+    padding: 17px 32px 19px 32px;
+}
+
+.button2-div {
+    margin-left: 70px;
+}
+
+.button2 h3 {
+    margin-top: -2%;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.span-h3 {
+    color: white;
+}
+
+.button2:hover {
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    color: rgb(151, 145, 145);
+    background-color: #0f5bc5;
+}
+
+.head1 {
+    margin-top: 314px;
+    
+}
+
+.head1 h1 {
+    color:#0B0E2C;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.head1 p{
+    margin-top: 15px;
+}
+
+.head1 button{
+    margin-top: 44px;
+    margin-right: 14px;
+}
+
+.head1 img {
+    height: 674px;
+    width: 750px;
+    float: right;
+    margin-right: -10px;
+}
+
+.head2 {
+    margin-top: 464px;
+}
+
+.head2 h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+.head2-1 {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.head2-1-1 {
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 100px;
+    height: 100px;
+    width: 130px;
+    border: 2px solid #87888c;
+    box-shadow: 0px 2px 10px 0px #195DC212;
+    border-radius: 20px;
+    padding-top: 5px;
+    margin-left: 320px;
+}
+
+.head2-1-2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 100px;
+    height: 100px;
+    width: 130px;
+    border: 2px solid #87888c;
+    box-shadow: 0px 2px 10px 0px #195DC212;
+    border-radius: 20px;
+    padding-top: 5px;
+    margin-left: 30px;
+}
+
+.head3 {
+    margin-top: 173px;
+    background-image: url("../img/IMAGE.png");
+    background-position: left 105px top -50px;
+    background-repeat: no-repeat;
+    background-size: 719px ,466px;
+}
+
+.head3-1 {
+    margin-left: 876px;
+}
+
+.blue {
+    color: #1476FF;
+}
+
+.head3-1 h3 {
+    margin-top: 13px;
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+
+.head3-p {
+    margin-bottom: 17px;
+}
+
+
+
+.head3-1 button{
+    padding: 0;
+    width: 160px;
+    height: 52px;
+}
+
+.button2 h5{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.head3-2{
+    margin-top: 250px;
+    margin-left: 179px;
+    background-image: url("../img/IMAGE1.png");
+    background-repeat: no-repeat;
+    background-position: right top 1px;
+    background-size: 669px ,430px;
+}
+
+.head3-2 button{
+    display: flex;
+    text-align: center;
+}
+
+.head3-2 h4{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.head3-2-h3 {
+    margin-top:66px;
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+/*2*/
+
+.head3-2-p{
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;  
+    margin-bottom: 44px;
+}
+
+.head4-background{
+    margin-left: -111px;
+    margin-bottom: 390px;
+    background-color: #F7F9FC;
+    min-height: 100%;
+    min-width: 100%;
+}    
+
+.head4 {
+    padding-top: 390px;
+}
+
+.head4-1 {
+    text-align: center;
+}
+
+.head4-1 h3 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    margin-bottom: 18px;
+}
+
+.head4-2 {
+    margin-top: 59px;
+}
+
+.head4-2-1 {
+    display: flex;
+    padding-left:14px ;
+}
+
+.head4-button1 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.head4 button {
+    margin-left:14px ;
+}
+
+.head4-2-2 {
+    display: flex;
+    padding-left:14px;
+    padding-top:14px;
+}
+
+.button-left {
+    margin-left: 430px;
+}
+
+.button-left1 {
+    margin-left: 400px;
+    display: flex;
+}
+
+.head4-3{
+    margin-top: 64px;
+}
+
+.head4-3 h4{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;  
+    margin-bottom: 65px;  
+}
+
+.head4-3 img {
+    border: 1px solid #E9EAF3;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px 0px #195DC212;
+    margin-left: 111px;
+    display: inline-block;
+}
+
+.head4-3 h5 {
+    display: inline-block;
+    margin-top: 58px;
+    margin-bottom:48px;
+}
+
+.h5-left {
+    margin-left: 292px;
+}
+
+.h5-right{
+    float: right;
+    margin-right: 275px;
+}
+
+.h5-left-1 {
+    padding-top: 400px;
+    float: left;
+}
+
+.head4-button-4 {
+    margin-top: 49px;
+    margin-left: 561px;
+    padding-left: 14px;
+    margin-bottom: 180px;
+}
+
+.head4-button-4 button {
+    margin-left: 14px;
+}
+
+.head4-5 {
+    height: 394px;
+    width: 1220px;
+    margin-left: 111px;
+    border-radius: 36px;
+    background-color: #1476FF;
+    padding-left: 84px;
+    padding-top: 87px;
+    text-align:left;
+    color:white;
+    background-image:url("../img/IMAGE\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 638px, 364px;
+    background-position: right;
+}
+
+.head4-5-h3 {
+    color: white;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.white {
+    color:white;
+}
+
+.head4-button-color {
+    background-color: #1476FF;
+    color: white;
+}
+
+.head4-bottom {
+    margin-bottom: 43px;
+}
+
+.footer {
+    margin-top: 128px;
+    margin-left: 480px;
+}
+
